@@ -15,15 +15,29 @@ const initialState = {
   categories: [],
   category: "",
   subs: [],
-  shipping: "",
-  quantity: "",
+  shipping: "Yes",
+  quantity: "50",
   images: [
-    
+    // {
+    //   public_id: "jwrzeubemmypod99e8lz",
+    //   url:
+    //     "https://res.cloudinary.com/dcqjrwaoi/image/upload/v1599480909/jwrzeubemmypod99e8lz.jpg",
+    // },
+    // {
+    //   public_id: "j7uerlvhog1eic0oyize",
+    //   url:
+    //     "https://res.cloudinary.com/dcqjrwaoi/image/upload/v1599480912/j7uerlvhog1eic0oyize.jpg",
+    // },
+    // {
+    //   public_id: "ho6wnp7sugyemnmtoogf",
+    //   url:
+    //     "https://res.cloudinary.com/dcqjrwaoi/image/upload/v1599480913/ho6wnp7sugyemnmtoogf.jpg",
+    // },
   ],
   colors: ["Black", "Brown", "Silver", "White", "Blue"],
   brands: ["Apple", "Samsung", "Microsoft", "Lenovo", "ASUS"],
-  color: "",
-  brand: "",
+  color: "White",
+  brand: "Apple",
 };
 
 const ProductCreate = () => {
