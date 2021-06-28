@@ -32,7 +32,21 @@ const Shop = () => {
     "Samsung",
     "Microsoft",
     "Lenovo",
-    "ASUS",
+    "Asus",
+    "US Polo",
+    
+    "adidas",
+    "Sparky",
+    "Biba",
+    "Levis",
+    "Aurelia",
+    "Beardo",
+    "The Skin",
+    "Lakme",
+    "Loreal",
+    "Johnson & Johnson",
+    "Eco Baby",
+    "Mother Care",,
   ]);
   const [brand, setBrand] = useState("");
   const [colors, setColors] = useState([
@@ -338,7 +352,7 @@ const Shop = () => {
                   range
                   value={price}
                   onChange={handleSlider}
-                  max="4999"
+                  max="5000"
                 />
               </div>
             </SubMenu>

@@ -35,7 +35,7 @@ const initialState = {
     // },
   ],
   colors: ["Black", "Brown", "Silver", "White", "Blue"],
-  brands: ["Apple", "Samsung", "Microsoft", "Lenovo", "ASUS"],
+  brands: ["Apple", "Samsung", "Microsoft", "Lenovo", "Asus","US Polo","adidas","Sparky","Biba","Levis","Aurelia","Beardo","The Skin","Lakme","Loreal","Johnson & Johnson","Eco Baby","Mother Care",],
   color: "White",
   brand: "Apple",
 };
