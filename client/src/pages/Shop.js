@@ -33,8 +33,7 @@ const Shop = () => {
     "Microsoft",
     "Lenovo",
     "Asus",
-    "US Polo",
-    
+    "US Polo",    
     "adidas",
     "Sparky",
     "Biba",
