@@ -25,6 +25,7 @@ const ShowPaymentInfo = ({ order, showStatus = true }) => (
       </span>
       {" / "}
       <br />
+      
       {showStatus && (
         <span className="badge bg-primary text-white">
           STATUS: {order.orderStatus}

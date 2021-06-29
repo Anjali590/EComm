@@ -37,7 +37,7 @@ const Shop = () => {
     "adidas",
     "Sparky",
     "Biba",
-    "Levis",
+    
     "Aurelia",
     "Beardo",
     "The Skin",

@@ -27,7 +27,7 @@ const Home = () => {
       </h5>      
      <center> © 2021 Legawise. All rights Reserved.
      <br/>
-      The materials on this website are intended for informational purposes only. 
+      The materials on this website are intended for Educational purposes only. 
       They are neither intended to be nor should they be interpreted as, legal advice or opinion.</center>
 
     </>
