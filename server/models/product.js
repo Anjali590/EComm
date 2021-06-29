@@ -56,8 +56,17 @@ const productSchema = new mongoose.Schema(
     },
     brand: {
       type: String,
-      enum: ["Apple", "Samsung", "Microsoft", "Lenovo", "Asus","US Polo","adidas","Sparky","Biba",
-      "Aurelia","Beardo","The Skin","Lakme","Loreal","Johnson & Johnson","Eco Baby","Mother Care"],
+      enum: ["Apple",
+      "Samsung",
+      "Microsoft",    
+      "US Polo",    
+      "adidas",    
+      "Aurelia",
+      "Beardo",
+      "The Skin",
+      "Lakme",
+      "Loreal",
+      "Johnson & Johnson",],
     },
     ratings: [
       {

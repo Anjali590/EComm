@@ -30,22 +30,15 @@ const Shop = () => {
   const [brands, setBrands] = useState([
     "Apple",
     "Samsung",
-    "Microsoft",
-    "Lenovo",
-    "Asus",
+    "Microsoft",    
     "US Polo",    
-    "adidas",
-    "Sparky",
-    "Biba",
-    
+    "adidas",    
     "Aurelia",
     "Beardo",
     "The Skin",
     "Lakme",
     "Loreal",
     "Johnson & Johnson",
-    "Eco Baby",
-    "Mother Care",,
   ]);
   const [brand, setBrand] = useState("");
   const [colors, setColors] = useState([
