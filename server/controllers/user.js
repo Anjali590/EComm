@@ -49,6 +49,7 @@ exports.userCart = async (req, res) => {
     products,
     cartTotal,
     orderdBy: user._id,
+    
   }).save();
 
   console.log("new cart ----> ", newCart);
@@ -133,6 +134,8 @@ exports.createOrder = async (req, res) => {
     products,
     paymentIntent,
     orderdBy: user._id,
+    OrderUser:user.name,
+    OrderAddress:user.address,
   }).save();
 
   // decrement quantity, increment sold
@@ -156,7 +159,8 @@ exports.orders = async (req, res) => {
   let user = await User.findOne({ email: req.user.email }).exec();
 
   let userOrders = await Order.find({ orderdBy: user._id })
-    .populate("products.product")
+    .populate("products.product")   
+    
     .exec();
 
   res.json(userOrders);
@@ -222,6 +226,7 @@ exports.createCashOrder = async (req, res) => {
       payment_method_types: ["cash"],
     },
     orderdBy: user._id,
+   
     orderStatus: "Cash On Delivery",
   }).save();
 

@@ -344,7 +344,7 @@ const Shop = () => {
                   range
                   value={price}
                   onChange={handleSlider}
-                  max="5000"
+                  max="50000"
                 />
               </div>
             </SubMenu>

@@ -61,6 +61,7 @@ const Login = ({ history }) => {
               _id: res.data._id,
             },
           });
+          console.log(res.data.name);
           roleBasedRedirect(res);
         })
         .catch((err) => console.log(err));

@@ -163,7 +163,7 @@ const Checkout = ({ history }) => {
         <br />
         {showAddress()}
         <hr />
-        <h4>Got Coupon?</h4>
+        <h4>Apply Coupon🤗</h4>
         <br />
         {showApplyCoupon()}
         <br />

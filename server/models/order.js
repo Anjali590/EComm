@@ -14,6 +14,7 @@ const orderSchema = new mongoose.Schema(
         color: String,
       },
     ],
+  
     paymentIntent: {},
     orderStatus: {
       type: String,
@@ -28,6 +29,7 @@ const orderSchema = new mongoose.Schema(
       ],
     },
     orderdBy: { type: ObjectId, ref: "User" },
+   
   },
   { timestamps: true }
 );

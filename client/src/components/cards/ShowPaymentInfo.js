@@ -1,9 +1,17 @@
 import React from "react";
 
+
+
+
+
 const ShowPaymentInfo = ({ order, showStatus = true }) => (
+  
   <div>
-    <p>
-      <span>Order Id: {order.paymentIntent.id}</span>
+    
+    <p><b>
+    
+      <span> Order Id: {order.paymentIntent.id}</span></b>
+      <i><span>User:{order.orderdBy}</span></i>
       {" / "}
       <span>
         Amount:{" / "}
@@ -18,11 +26,7 @@ const ShowPaymentInfo = ({ order, showStatus = true }) => (
       <span>Method: {order.paymentIntent.payment_method_types[0]}</span>
       {" / "}
       <span>Payment: {order.paymentIntent.status.toUpperCase()}</span>
-      {" / "}
-      <span>
-        Orderd on:{" / "}
-        {new Date(order.paymentIntent.created * 1000).toLocaleString()}
-      </span>
+      
       {" / "}
       <br />
       
