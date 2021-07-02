@@ -34,8 +34,10 @@ const initialState = {
     //     "https://res.cloudinary.com/dcqjrwaoi/image/upload/v1599480913/ho6wnp7sugyemnmtoogf.jpg",
     // },
   ],
-  colors: ["Black", "Brown", "Silver", "White", "Blue"],
+  colors: ["Black", "Brown", "Silver", "White", "Blue","Gray","Multicolor"],
   brands: ["Apple",
+  "Chocozone",
+  "Babyhug",
   "Samsung",
   "Microsoft",    
   "US Polo",    
@@ -47,7 +49,6 @@ const initialState = {
   "Loreal",
   "Johnson & Johnson",],
   color: "White",
-  brand: "Apple",
 };
 
 const ProductCreate = () => {

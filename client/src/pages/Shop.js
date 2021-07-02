@@ -29,6 +29,8 @@ const Shop = () => {
   const [sub, setSub] = useState("");
   const [brands, setBrands] = useState([
     "Apple",
+    "Chocozone",
+    "Babyhug",
     "Samsung",
     "Microsoft",    
     "US Polo",    
@@ -46,7 +48,9 @@ const Shop = () => {
     "Brown",
     "Silver",
     "White",
+    "Gray",
     "Blue",
+    "multicolor",
   ]);
   const [color, setColor] = useState("");
   const [shipping, setShipping] = useState("");

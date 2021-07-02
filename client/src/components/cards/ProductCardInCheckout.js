@@ -10,7 +10,7 @@ import {
 } from "@ant-design/icons";
 
 const ProductCardInCheckout = ({ p }) => {
-  const colors = ["Black", "Brown", "Silver", "White", "Blue"];
+  const colors = ["Black", "Brown", "Silver", "White", "Blue","Gray","Multicolor"];
   let dispatch = useDispatch();
 
   const handleColorChange = (e) => {
