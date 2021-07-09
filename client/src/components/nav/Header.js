@@ -14,6 +14,7 @@ import firebase from "firebase";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import Search from "../forms/Search";
+import Logo from '../../images/Logo.png';
 
 const { SubMenu, Item } = Menu;
 
@@ -39,8 +40,15 @@ const Header = () => {
     history.push("/login");
   };
 
+  const contentStyle = {
+    height:'40px',
+    width:'60px'
+  };
+
   return (
     <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
+      <Item ><img src={Logo}
+ disabled style={contentStyle}></img> </Item>
       <Item key="home" icon={<AppstoreOutlined />}>
         <Link to="/">Home</Link>
       </Item>
